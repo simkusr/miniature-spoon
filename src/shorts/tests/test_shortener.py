@@ -10,11 +10,11 @@ import pytest
     [
         (
             "https://www.example.com/this-long-url-will-be-short",
-            f"https://simkusr.io/{hash('https://www.example.com/this-long-url-will-be-short')}"
+            hash('https://www.example.com/this-long-url-will-be-short')
         ),
         (
             "https://www.example.com/this-long-url-will-be-short-long",
-            f"https://simkusr.io/{hash('https://www.example.com/this-long-url-will-be-short-long')}"
+            hash('https://www.example.com/this-long-url-will-be-short-long')
         )
     ]
 )

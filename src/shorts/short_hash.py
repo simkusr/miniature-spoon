@@ -3,4 +3,4 @@
 
 def short_hash(long_url: str):
     short_url = hash(long_url)
-    return f"https://simkusr.io/{short_url}"
+    return short_url
